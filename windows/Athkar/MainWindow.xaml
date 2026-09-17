@@ -1,0 +1,19 @@
+<Window x:Class="Athkar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="أذكار اليوم" Height="720" Width="980"
+        FlowDirection="RightToLeft"
+        Background="#F6F0E4" FontFamily="Segoe UI, Traditional Arabic, Arial"
+        WindowStartupLocation="CenterScreen">
+  <DockPanel>
+    <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Stretch"
+                Background="#99FFF9F0">
+      <Button x:Name="NavHome" Content="الرئيسية" Click="OnNav" Tag="home" MinWidth="90" Padding="12,14"/>
+      <Button x:Name="NavQuran" Content="المصحف" Click="OnNav" Tag="quran" MinWidth="90" Padding="12,14"/>
+      <Button x:Name="NavLib" Content="المكتبة" Click="OnNav" Tag="library" MinWidth="90" Padding="12,14"/>
+      <Button x:Name="NavAdhkar" Content="الأذكار" Click="OnNav" Tag="adhkar" MinWidth="90" Padding="12,14"/>
+      <Button x:Name="NavQibla" Content="القبلة" Click="OnNav" Tag="qibla" MinWidth="90" Padding="12,14"/>
+    </StackPanel>
+    <ScrollViewer x:Name="Body" Padding="28,20"/>
+  </DockPanel>
+</Window>

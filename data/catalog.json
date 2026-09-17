@@ -1,0 +1,201 @@
+{
+  "shelves": [
+    {
+      "id": "aqidah",
+      "name": "كتب العقيدة",
+      "blurb": "التوحيد وأصول الإيمان"
+    },
+    {
+      "id": "fiqh",
+      "name": "كتب الفقه والشرع",
+      "blurb": "أحكام العبادات من الدليل"
+    },
+    {
+      "id": "hadith",
+      "name": "كتب الحديث",
+      "blurb": "الصحاح والسنن كاملة"
+    }
+  ],
+  "books": [
+    {
+      "id": "usul-thalatha",
+      "shelf": "aqidah",
+      "title": "الأصول الثلاثة",
+      "author": "محمد بن عبد الوهاب",
+      "blurb": "معرفة العبد ربَّه ودينه ونبيَّه، وهي المسألة التي يُسأل عنها في القبر.",
+      "file": "aqidah.json",
+      "extra": "7 فصول"
+    },
+    {
+      "id": "qawaid-arba",
+      "shelf": "aqidah",
+      "title": "القواعد الأربع",
+      "author": "محمد بن عبد الوهاب",
+      "blurb": "أربع قواعد تميّز التوحيد من الشرك، مأخوذة من القرآن.",
+      "file": "aqidah.json",
+      "extra": "4 فصول"
+    },
+    {
+      "id": "nawaqid",
+      "shelf": "aqidah",
+      "title": "نواقض الإسلام",
+      "author": "محمد بن عبد الوهاب",
+      "blurb": "عشرة نواقض مجمع عليها تخرج من الملة، بأدلتها.",
+      "file": "aqidah.json",
+      "extra": "1 فصول"
+    },
+    {
+      "id": "arkan-iman",
+      "shelf": "aqidah",
+      "title": "أركان الإيمان",
+      "author": "مأخوذ من حديث جبريل",
+      "blurb": "الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر.",
+      "file": "aqidah.json",
+      "extra": "6 فصول"
+    },
+    {
+      "id": "kashf",
+      "shelf": "aqidah",
+      "title": "كشف الشبهات",
+      "author": "محمد بن عبد الوهاب",
+      "blurb": "كشف أعظم شبه المشركين في توحيد العبادة، من القرآن.",
+      "file": "aqidah.json",
+      "extra": "6 فصول"
+    },
+    {
+      "id": "arkan-islam",
+      "shelf": "fiqh",
+      "title": "أركان الإسلام",
+      "author": "من حديث ابن عمر في الصحيحين",
+      "blurb": "الشهادتان والصلاة والزكاة والصوم والحج، بأدلتها.",
+      "file": "fiqh.json",
+      "extra": "5 فصول"
+    },
+    {
+      "id": "wudu-salah",
+      "shelf": "fiqh",
+      "title": "الطهارة والصلاة",
+      "author": "ملخص من صفة وضوء النبي ﷺ وصلاته",
+      "blurb": "صفة الوضوء والغسل والتيمم، وشروط الصلاة وأركانها وواجباتها.",
+      "file": "fiqh.json",
+      "extra": "5 فصول"
+    },
+    {
+      "id": "adab-muamalat",
+      "shelf": "fiqh",
+      "title": "جوامع الآداب والأحكام",
+      "author": "من الكتاب والسنة",
+      "blurb": "بر الوالدين، والبيوع، والحدود مجملة، والأطعمة.",
+      "file": "fiqh.json",
+      "extra": "3 فصول"
+    },
+    {
+      "id": "shurut-salah",
+      "shelf": "fiqh",
+      "title": "شروط الصلاة وأركانها وواجباتها",
+      "author": "محمد بن عبد الوهاب",
+      "blurb": "شروط الصلاة التسعة، وأركانها، وواجباتها، من الدليل.",
+      "file": "fiqh.json",
+      "extra": "3 فصول"
+    },
+    {
+      "id": "abudawud",
+      "shelf": "hadith",
+      "title": "سنن أبي داود",
+      "author": "الإمام أبو داود السجستاني",
+      "blurb": "السنن كاملة.",
+      "file": "library/abudawud.json",
+      "extra": "5276 حديثًا · 43 كتابًا"
+    },
+    {
+      "id": "bukhari",
+      "shelf": "hadith",
+      "title": "صحيح البخاري",
+      "author": "الإمام محمد بن إسماعيل البخاري",
+      "blurb": "الجامع المسند الصحيح كاملًا.",
+      "file": "library/bukhari.json",
+      "extra": "7580 حديثًا · 97 كتابًا"
+    },
+    {
+      "id": "bulugh",
+      "shelf": "hadith",
+      "title": "بلوغ المرام",
+      "author": "ابن حجر العسقلاني",
+      "blurb": "بلوغ المرام كاملًا.",
+      "file": "library/bulugh.json",
+      "extra": "1767 حديثًا · 16 كتابًا"
+    },
+    {
+      "id": "ibnmajah",
+      "shelf": "hadith",
+      "title": "سنن ابن ماجه",
+      "author": "الإمام ابن ماجه القزويني",
+      "blurb": "السنن كاملة.",
+      "file": "library/ibnmajah.json",
+      "extra": "4345 حديثًا · 38 كتابًا"
+    },
+    {
+      "id": "malik",
+      "shelf": "hadith",
+      "title": "موطأ مالك",
+      "author": "الإمام مالك بن أنس",
+      "blurb": "الموطأ كاملًا.",
+      "file": "library/malik.json",
+      "extra": "1860 حديثًا · 61 كتابًا"
+    },
+    {
+      "id": "muslim",
+      "shelf": "hadith",
+      "title": "صحيح مسلم",
+      "author": "الإمام مسلم بن الحجاج",
+      "blurb": "المسند الصحيح كاملًا.",
+      "file": "library/muslim.json",
+      "extra": "7360 حديثًا · 57 كتابًا"
+    },
+    {
+      "id": "nasai",
+      "shelf": "hadith",
+      "title": "سنن النسائي",
+      "author": "الإمام أحمد بن شعيب النسائي",
+      "blurb": "المجتبى من السنن كاملًا.",
+      "file": "library/nasai.json",
+      "extra": "5768 حديثًا · 52 كتابًا"
+    },
+    {
+      "id": "nawawi",
+      "shelf": "hadith",
+      "title": "الأربعون النووية",
+      "author": "يحيى بن شرف النووي",
+      "blurb": "اثنان وأربعون حديثًا.",
+      "file": "library/nawawi.json",
+      "extra": "42 حديثًا · 42 كتابًا"
+    },
+    {
+      "id": "qudsi",
+      "shelf": "hadith",
+      "title": "الأحاديث القدسية",
+      "author": "من الصحاح",
+      "blurb": "أربعون حديثًا قدسيًا.",
+      "file": "library/qudsi.json",
+      "extra": "40 حديثًا · 40 كتابًا"
+    },
+    {
+      "id": "riyadh",
+      "shelf": "hadith",
+      "title": "رياض الصالحين",
+      "author": "يحيى بن شرف النووي",
+      "blurb": "رياض الصالحين كاملًا.",
+      "file": "library/riyadh.json",
+      "extra": "1896 حديثًا · 20 كتابًا"
+    },
+    {
+      "id": "tirmidhi",
+      "shelf": "hadith",
+      "title": "جامع الترمذي",
+      "author": "الإمام أبو عيسى الترمذي",
+      "blurb": "الجامع كامل الأبواب.",
+      "file": "library/tirmidhi.json",
+      "extra": "4053 حديثًا · 49 كتابًا"
+    }
+  ]
+}

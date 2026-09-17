@@ -1,0 +1,14 @@
+.DS_Store
+.idea/
+.gradle/
+build/
+**/build/
+*.iml
+local.properties
+DerivedData/
+xcuserdata/
+*.xcuserstate
+bin/
+obj/
+.vs/
+*.user

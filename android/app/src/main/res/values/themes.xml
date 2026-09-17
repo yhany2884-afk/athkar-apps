@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Athkar" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#F6F0E4</item>
+        <item name="android:navigationBarColor">#00F6F0E4</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">#F6F0E4</item>
+        <item name="android:windowSplashScreenBackground">#F6F0E4</item>
+        <item name="android:windowAnimationStyle">@style/Athkar.Window</item>
+    </style>
+    <style name="Athkar.Window" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>
